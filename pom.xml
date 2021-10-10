@@ -4,13 +4,56 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.wiqer.netty</groupId>
+    <groupId>io.gitee.wiqer</groupId>
     <artifactId>Netty-single</artifactId>
     <version>4.1.66.Final</version>
+    <!-- 版权许可 -->
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+            <comments>A business-friendly OSS license</comments>
+        </license>
+    </licenses>
+
+    <!-- 开发者信息 -->
+    <developers>
+        <developer>
+            <name>lilanfeng</name>
+            <email>lilanfeng10831@qq.com</email>
+            <roles>
+                <role>owner</role>
+            </roles>
+            <timezone>+8</timezone>
+        </developer>
+    </developers>
+
+    <!-- 代码库 -->
+    <scm>
+        <connection>scm:git:git@github.com:Andy-FSK/Netty-single.git</connection>
+        <developerConnection>scm:git:git@github.com:Andy-FSK/Netty-single.git</developerConnection>
+        <url>https://github.com/Andy-FSK/Netty-single.git</url>
+    </scm>
+
+    <!-- 定义snapshots库和releases库的nexus地址 -->
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>	<!-- 文件拷贝时的编码 -->
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <maven.compiler.encoding>UTF-8</maven.compiler.encoding> <!-- 编译时的编码 -->
     </properties>
     <dependencies>
         <dependency>
