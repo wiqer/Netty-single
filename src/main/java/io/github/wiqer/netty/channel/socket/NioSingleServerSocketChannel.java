@@ -1,4 +1,4 @@
-package main.java.io.github.wiqer.netty.channel.socket;
+package io.github.wiqer.netty.channel.socket;
 
 import io.netty.channel.ChannelException;
 import io.netty.channel.ChannelMetadata;

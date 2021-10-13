@@ -73,7 +73,6 @@
     </dependencies>
     <!-- 编译设置 -->
     <build>
-        <sourceDirectory>src</sourceDirectory>
         <resources>
             <resource>
                 <directory>src</directory>
@@ -142,14 +141,14 @@
 <!--                </executions>-->
 <!--            </plugin>-->
 
-<!--            <plugin>-->
-<!--                <groupId>org.sonatype.plugins</groupId>-->
-<!--                <artifactId>nexus-staging-maven-plugin</artifactId>-->
-<!--                <version>1.6.7</version>-->
-<!--                <extensions>true</extensions>-->
-<!--                <configuration>-->
-<!--                    <serverId>oss</serverId>-->
-<!--                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>-->
+            <plugin>
+                <groupId>org.sonatype.plugins</groupId>
+                <artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>1.6.7</version>
+                <extensions>true</extensions>
+                <configuration>
+                    <serverId>oss</serverId>
+                    <nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
 <!--                    <autoReleaseAfterClose>false</autoReleaseAfterClose>-->
 <!--                    <sslAllowAll>true</sslAllowAll>-->
 <!--                    <stagingProgressPauseDurationSeconds>20</stagingProgressPauseDurationSeconds>-->
@@ -157,8 +156,8 @@
 <!--                    <detectBuildFailures>true</detectBuildFailures>-->
 <!--                    &lt;!&ndash;     跳过上传&ndash;&gt;-->
 <!--                    <skipNexusStagingDeployMojo>false</skipNexusStagingDeployMojo>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+                </configuration>
+            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

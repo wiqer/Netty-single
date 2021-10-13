@@ -1,4 +1,4 @@
-package test.java.io.github.wiqer.io.netty;
+package io.github.wiqer.io.netty;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;

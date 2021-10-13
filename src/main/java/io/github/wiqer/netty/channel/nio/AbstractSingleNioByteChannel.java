@@ -1,4 +1,4 @@
-package main.java.io.github.wiqer.netty.channel.nio;
+package io.github.wiqer.netty.channel.nio;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.ByteBufAllocator;

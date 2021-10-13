@@ -1,6 +1,6 @@
-package main.java.io.github.wiqer.netty.channel;
+package io.github.wiqer.netty.channel;
 
-import main.java.io.github.wiqer.netty.util.concurrent.SingleThreadEventExecutorGroup;
+import io.github.wiqer.netty.util.concurrent.SingleThreadEventExecutorGroup;
 import io.netty.channel.*;
 import io.netty.util.NettyRuntime;
 import io.netty.util.concurrent.DefaultThreadFactory;

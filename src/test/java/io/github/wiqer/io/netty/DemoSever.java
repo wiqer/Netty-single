@@ -1,7 +1,7 @@
-package test.java.io.github.wiqer.io.netty;
+package io.github.wiqer.io.netty;
 
-import main.java.io.github.wiqer.netty.channel.nio.NioSingleEventLoopGroup;
-import main.java.io.github.wiqer.netty.channel.socket.NioSingleServerSocketChannel;
+import io.github.wiqer.netty.channel.nio.NioSingleEventLoopGroup;
+import io.github.wiqer.netty.channel.socket.NioSingleServerSocketChannel;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;

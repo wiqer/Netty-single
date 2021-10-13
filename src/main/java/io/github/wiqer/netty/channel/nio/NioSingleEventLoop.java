@@ -1,4 +1,4 @@
-package main.java.io.github.wiqer.netty.channel.nio;
+package io.github.wiqer.netty.channel.nio;
 
 import io.netty.channel.*;
 import io.netty.channel.nio.NioTask;

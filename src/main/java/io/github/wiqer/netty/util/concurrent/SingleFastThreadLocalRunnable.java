@@ -1,4 +1,4 @@
-package main.java.io.github.wiqer.netty.util.concurrent;
+package io.github.wiqer.netty.util.concurrent;
 
 import io.netty.util.concurrent.FastThreadLocal;
 import io.netty.util.internal.ObjectUtil;

@@ -1,6 +1,6 @@
-package main.java.io.github.wiqer.netty.channel.socket;
+package io.github.wiqer.netty.channel.socket;
 
-import main.java.io.github.wiqer.netty.channel.nio.AbstractSingleNioChannel;
+import io.github.wiqer.netty.channel.nio.AbstractSingleNioChannel;
 import io.netty.channel.*;
 
 import java.io.IOException;

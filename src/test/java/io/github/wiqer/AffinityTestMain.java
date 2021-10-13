@@ -1,4 +1,4 @@
-package test.java.io.github.wiqer;
+package io.github.wiqer;
 
 import net.openhft.affinity.Affinity;
 import net.openhft.affinity.AffinityLock;
